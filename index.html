@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="реставрация, мягкие игрушки, игрушки, ремонт">
+    <meta name="description" content="Специализированный сервис по реставрации мягких игрушек.">
+    <title>Реставрация мягких игрушек</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Главная</a></li>
+			<li><a href="#reviews">Новости</a></li>
+			<li><a href="#request">Заявка</li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </nav>
+	
+    <section id="home" class="container mt-4">
+            <h2>Реставрация мягких игрушек</h2>
+            <p>Мы занимаемся реставрацией мягких игрушек и готовы вернуть вашим детским друзьям свежий вид.</p>
+            <div class="image-container">
+                <img src="картинки/Banner.png" alt="Приветственная картинка" class="welcome-image">
+            </div>
+    </section>
+	
+    <section id="services" class="container mt-4">
+        <h2>Наши услуги</h2>
+        <p>Предоставляем широкий спектр услуг по реставрации и ремонту кукол и игрушек:</p>
+        <ul>
+            <li>Производство ремонта современных кукол</li>
+            <li>Реставрация старых кукол</li>
+            <li>Перешивка тел пупсам</li>
+            <li>Реставрация и ремонт ватных советских Дедов Морозов и Снегурочек</li>
+            <li>Реставрация композитных и опилочных кукол и игрушек</li>
+            <li>Перепрошивка волос</li>
+            <li>Ремонт суставов</li>
+            <li>Чистка кукол и игрушек</li>
+            <li>Пошив одежды для кукол и игрушек</li>
+            <li>И многое другое</li>
+        </ul>
+    </section>
+	
+	<section id="reviews" class="container mt-4">
+        <h2>Наши новости</h2>
+		<div id="reviewsFilter">
+		<label for="filterInput">Фильтр по названию:</label>
+		<input type="text" id="filterInput" placeholder="Введите название"/>
+		<div class="button-container">
+		<button id="filterButton">Применить фильтр</button>
+		<button id="showAllButton">Показать все</button>
+		</div>
+		</div>
+        <div id="reviewsList" class="reviews-list"></div>
+    </section>
+	
+	<section id="request" class="container mt-4">
+		<h2>Оставить заявку на сайте</h2>
+		<form id="materialForm">
+			<label for="title">Ваше имя:</label>
+			<input type="text" id="title" name="title" required>
+			<label for="description">Как с вами связаться:</label>
+			<textarea id="description" name="description" rows="2" required></textarea>
+			<button type="button" onclick="submitMaterial()">Отправить</button>
+		</form>
+	</section>
+
+    <section id="contacts" class="container-fluid mt-4">
+        <h2>Контакты</h2>
+        <p>Ждем ваших звонков и писем!</p>
+        <div class="contact-info">
+            <p><strong>Телефон:</strong> 8-916-000-00-00</p>
+            <p><strong>Эл. почта:</strong> plushdoc@mail.ru</p>
+        </div>
+        <p>Находимся в Барнауле, проспект Ленина, дом 71. Работаем со всеми регионами России.</p>
+        <div class="map-container">
+            <img src="картинки/карта.png" alt="Статическая карта">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 ПИЭ-01 ст. Тимофеева А.А.</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+    </html>
+
+
+

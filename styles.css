@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	background-color:#f9f3e5;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+}
+
+nav {
+    background-color:  #fbc7b9;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+	color: #333;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: none;
+	color: #ed440c;
+}
+
+section {
+    padding-top: 20px;
+} 
+
+footer {
+    background-color: #FCC7BA;
+    text-align: center;
+    padding: 1em 0;
+}
+
+#home {
+    text-align: center;
+}
+
+.welcome-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-height: 70vh;
+}
+
+#services {
+	background-color: #fee7da;
+	padding-bottom: 10px;
+}
+
+#contacts {
+    text-align: center;
+}
+
+.map-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-height: 40vh;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+	background-color: #fbc7b9;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+	color: #ed440c;
+}
+
+#reviewsFilter {
+    margin-bottom: 30px;
+}
+
+.review-item {
+    padding: 10px;
+		background-color: #fee7da;
+    margin-bottom: 10px;
+}
+
+.review-item h3:hover {
+	color: #ed440c;
+}
+
+.button-container {
+    display: flex;
+}
